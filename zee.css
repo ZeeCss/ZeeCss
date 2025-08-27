@@ -266,3 +266,18 @@ center
 /* 10. Shake */
 @keyframes shake { 0%,100%{ transform: translateX(0); } 10%,30%,50%,70%,90%{ transform: translateX(-5px); } 20%,40%,60%,80%{ transform: translateX(5px); } }
 .ani10 { animation: shake 0.5s ease-in-out; }
+  .hidd{
+    overflow: hidden;
+  }
+  .w{
+    width: 100%;
+    
+  }
+  .h{
+    height: 100%;
+  }
+  .cover{
+    object-fit: cover;
+  }
+  .none{display: none;}
+  
