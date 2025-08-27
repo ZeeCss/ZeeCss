@@ -1,0 +1,268 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufi&display=swap');
+
+
+.tt1 { font-family: 'Amiri', serif; }
+.tt2 { font-family: 'Cairo', sans-serif; }
+.tt3 { font-family: 'El Messiri', sans-serif; }
+.tt4 { font-family: 'Harmattan', sans-serif; }
+.tt5 { font-family: 'Jomhuria', cursive; }
+.tt6 { font-family: 'Lateef', cursive; }
+.tt7 { font-family: 'Mada', sans-serif; }
+.tt8 { font-family: 'Noto Kufi Arabic', sans-serif; }
+.tt9 { font-family: 'Reem Kufi', sans-serif; }
+.tt10 { font-family: 'Kufi', sans-serif; }
+
+/* Width Percentages */
+.w5{width:5%;}.w10{width:10%;}.w15{width:15%;}.w20{width:20%;}.w25{width:25%;}.w30{width:30%;}.w35{width:35%;}.w40{width:40%;}.w45{width:45%;}.w50{width:50%;}.w55{width:55%;}.w60{width:60%;}.w65{width:65%;}.w70{width:70%;}.w75{width:75%;}.w80{width:80%;}.w85{width:85%;}.w90{width:90%;}.w95{width:95%;}.w100{width:100%;}
+
+/*
+
+Height Pixels
+.............
+.............
+.............
+
+*/
+.h5{height:5px;}.h10{height:10px;}.h15{height:15px;}.h20{height:20px;}.h25{height:25px;}.h30{height:30px;}.h35{height:35px;}.h40{height:40px;}.h45{height:45px;}.h50{height:50px;}.h55{height:55px;}.h60{height:60px;}.h65{height:65px;}.h70{height:70px;}.h75{height:75px;}.h80{height:80px;}.h85{height:85px;}.h90{height:90px;}.h95{height:95px;}.h100{height:100px;}
+/* Margin Pixels */
+.s5{margin:5px;}.s10{margin:10px;}.s15{margin:15px;}.s20{margin:20px;}.s25{margin:25px;}.s30{margin:30px;}.s35{margin:35px;}.s40{margin:40px;}.s45{margin:45px;}.s50{margin:50px;}.s55{margin:55px;}.s60{margin:60px;}.s65{margin:65px;}.s70{margin:70px;}.s75{margin:75px;}.s80{margin:80px;}.s85{margin:85px;}.s90{margin:90px;}.s95{margin:95px;}.s100{margin:100px;}
+/* Padding Pixels */
+.S5{padding:5px;}.S10{padding:10px;}.S15{padding:15px;}.S20{padding:20px;}.S25{padding:25px;}.S30{padding:30px;}.S35{padding:35px;}.S40{padding:40px;}.S45{padding:45px;}.S50{padding:50px;}.S55{padding:55px;}.S60{padding:60px;}.S65{padding:65px;}.S70{padding:70px;}.S75{padding:75px;}.S80{padding:80px;}.S85{padding:85px;}.S90{padding:90px;}.S95{padding:95px;}.S100{padding:100px;}
+
+/* Margin Directions */
+.st5{margin-top:5px;}.st10{margin-top:10px;}.st15{margin-top:15px;}.st20{margin-top:20px;}.st25{margin-top:25px;}.st30{margin-top:30px;}.st35{margin-top:35px;}.st40{margin-top:40px;}.st45{margin-top:45px;}.st50{margin-top:50px;}.st55{margin-top:55px;}.st60{margin-top:60px;}.st65{margin-top:65px;}.st70{margin-top:70px;}.st75{margin-top:75px;}.st80{margin-top:80px;}.st85{margin-top:85px;}.st90{margin-top:90px;}.st95{margin-top:95px;}.st100{margin-top:100px;}
+.sr5{margin-right:5px;}.sr10{margin-right:10px;}.sr15{margin-right:15px;}.sr20{margin-right:20px;}.sr25{margin-right:25px;}.sr30{margin-right:30px;}.sr35{margin-right:35px;}.sr40{margin-right:40px;}.sr45{margin-right:45px;}.sr50{margin-right:50px;}.sr55{margin-right:55px;}.sr60{margin-right:60px;}.sr65{margin-right:65px;}.sr70{margin-right:70px;}.sr75{margin-right:75px;}.sr80{margin-right:80px;}.sr85{margin-right:85px;}.sr90{margin-right:90px;}.sr95{margin-right:95px;}.sr100{margin-right:100px;}
+.sb5{margin-bottom:5px;}.sb10{margin-bottom:10px;}.sb15{margin-bottom:15px;}.sb20{margin-bottom:20px;}.sb25{margin-bottom:25px;}.sb30{margin-bottom:30px;}.sb35{margin-bottom:35px;}.sb40{margin-bottom:40px;}.sb45{margin-bottom:45px;}.sb50{margin-bottom:50px;}.sb55{margin-bottom:55px;}.sb60{margin-bottom:60px;}.sb65{margin-bottom:65px;}.sb70{margin-bottom:70px;}.sb75{margin-bottom:75px;}.sb80{margin-bottom:80px;}.sb85{margin-bottom:85px;}.sb90{margin-bottom:90px;}.sb95{margin-bottom:95px;}.sb100{margin-bottom:100px;}
+.sl5{margin-left:5px;}.sl10{margin-left:10px;}.sl15{margin-left:15px;}.sl20{margin-left:20px;}.sl25{margin-left:25px;}.sl30{margin-left:30px;}.sl35{margin-left:35px;}.sl40{margin-left:40px;}.sl45{margin-left:45px;}.sl50{margin-left:50px;}.sl55{margin-left:55px;}.sl60{margin-left:60px;}.sl65{margin-left:65px;}.sl70{margin-left:70px;}.sl75{margin-left:75px;}.sl80{margin-left:80px;}.sl85{margin-left:85px;}.sl90{margin-left:90px;}.sl95{margin-left:95px;}.sl100{margin-left:100px;}
+
+/* Padding Directions */
+.St5{padding-top:5px;}.St10{padding-top:10px;}.St15{padding-top:15px;}.St20{padding-top:20px;}.St25{padding-top:25px;}.St30{padding-top:30px;}.St35{padding-top:35px;}.St40{padding-top:40px;}.St45{padding-top:45px;}.St50{padding-top:50px;}.St55{padding-top:55px;}.St60{padding-top:60px;}.St65{padding-top:65px;}.St70{padding-top:70px;}.St75{padding-top:75px;}.St80{padding-top:80px;}.St85{padding-top:85px;}.St90{padding-top:90px;}.St95{padding-top:95px;}.St100{padding-top:100px;}
+.Sr5{padding-right:5px;}.Sr10{padding-right:10px;}.Sr15{padding-right:15px;}.Sr20{padding-right:20px;}.Sr25{padding-right:25px;}.Sr30{padding-right:30px;}.Sr35{padding-right:35px;}.Sr40{padding-right:40px;}.Sr45{padding-right:45px;}.Sr50{padding-right:50px;}.Sr55{padding-right:55px;}.Sr60{padding-right:60px;}.Sr65{padding-right:65px;}.Sr70{padding-right:70px;}.Sr75{padding-right:75px;}.Sr80{padding-right:80px;}.Sr85{padding-right:85px;}.Sr90{padding-right:90px;}.Sr95{padding-right:95px;}.Sr100{padding-right:100px;}
+.Sb5{padding-bottom:5px;}.Sb10{padding-bottom:10px;}.Sb15{padding-bottom:15px;}.Sb20{padding-bottom:20px;}.Sb25{padding-bottom:25px;}.Sb30{padding-bottom:30px;}.Sb35{padding-bottom:35px;}.Sb40{padding-bottom:40px;}.Sb45{padding-bottom:45px;}.Sb50{padding-bottom:50px;}.Sb55{padding-bottom:55px;}.Sb60{padding-bottom:60px;}.Sb65{padding-bottom:65px;}.Sb70{padding-bottom:70px;}.Sb75{padding-bottom:75px;}.Sb80{padding-bottom:80px;}.Sb85{padding-bottom:85px;}.Sb90{padding-bottom:90px;}.Sb95{padding-bottom:95px;}.Sb100{padding-bottom:100px;}
+.Sl5{padding-left:5px;}.Sl10{padding-left:10px;}.Sl15{padding-left:15px;}.Sl20{padding-left:20px;}.Sl25{padding-left:25px;}.Sl30{padding-left:30px;}.Sl35{padding-left:35px;}.Sl40{padding-left:40px;}.Sl45{padding-left:45px;}.Sl50{padding-left:50px;}.Sl55{padding-left:55px;}.Sl60{padding-left:60px;}.Sl65{padding-left:65px;}.Sl70{padding-left:70px;}.Sl75{padding-left:75px;}.Sl80{padding-left:80px;}.Sl85{padding-left:85px;}.Sl90{padding-left:90px;}.Sl95{padding-left:95px;}.Sl100{padding-left:100px}
+
+/* Frame (Border) All Sides */
+
+.fr1{border:1px solid #000;}.fr2{border:2px solid #000;}.fr3{border:3px solid #000;}.fr4{border:4px solid #000;}.fr5{border:5px solid #000;}
+/* Frame Top */
+.frt1{border-top:1px solid #000;}.frt2{border-top:2px solid #000;}.frt3{border-top:3px solid #000;}.frt4{border-top:4px solid #000;}.frt5{border-top:5px solid #000;}
+
+/*
+Frame Right 
+...........
+...
+
+*/
+.frr1{border-right:1px solid #000;}.frr2{border-right:2px solid #000;}.frr3{border-right:3px solid #000;}.frr4{border-right:4px solid #000;}.frr5{border-right:5px solid #000;}
+
+/*
+Frame Bottom
+...........
+..........
+*/
+.frb1{border-bottom:1px solid #000;}.frb2{border-bottom:2px solid #000;}.frb3{border-bottom:3px solid #000;}.frb4{border-bottom:4px solid #000;}.frb5{border-bottom:5px solid #000;}
+
+/*
+
+
+Frame Left
+........
+........
+........
+
+
+*/
+.frl1{border-left:1px solid #000;}.frl2{border-left:2px solid #000;}.frl3{border-left:3px solid #000;}.frl4{border-left:4px solid #000;}.frl5{border-left:5px solid #000;}
+
+/* Text 
+ts10-ts50
+
+
+*/
+.ts10{font-size:10px;}.ts11{font-size:11px;}.ts12{font-size:12px;}.ts13{font-size:13px;}.ts14{font-size:14px;}
+.ts15{font-size:15px;}.ts16{font-size:16px;}.ts17{font-size:17px;}.ts18{font-size:18px;}.ts19{font-size:19px;}
+.ts20{font-size:20px;}.ts21{font-size:21px;}.ts22{font-size:22px;}.ts23{font-size:23px;}.ts24{font-size:24px;}
+.ts25{font-size:25px;}.ts26{font-size:26px;}.ts27{font-size:27px;}.ts28{font-size:28px;}.ts29{font-size:29px;}
+.ts30{font-size:30px;}.ts31{font-size:31px;}.ts32{font-size:32px;}.ts33{font-size:33px;}.ts34{font-size:34px;}
+.ts35{font-size:35px;}.ts36{font-size:36px;}.ts37{font-size:37px;}.ts38{font-size:38px;}.ts39{font-size:39px;}
+.ts40{font-size:40px;}.ts41{font-size:41px;}.ts42{font-size:42px;}.ts43{font-size:43px;}.ts44{font-size:44px;}
+.ts45{font-size:45px;}.ts46{font-size:46px;}.ts47{font-size:47px;}.ts48{font-size:48px;}.ts49{font-size:49px;}
+.ts50{font-size:50px;}
+
+/* Text Colors */
+.c1 { color: #000000; } /* Black */
+.c2 { color: #ffffff; } /* White */
+.c3 { color: #ff0000; } /* Red */
+.c4 { color: #ffff00; } /* Yellow */
+.c5 { color: #0000ff; } /* Blue */
+
+/* Font Weights */
+.tw100 { font-weight: 100; }
+.tw200 { font-weight: 200; }
+.tw300 { font-weight: 300; }
+.tw400 { font-weight: 400; }
+.tw500 { font-weight: 500; }
+.tw600 { font-weight: 600; }
+.tw700 { font-weight: 700; }
+.tw800 { font-weight: 800; }
+.tw900 { font-weight: 900; }
+.tw1000 { font-weight: 1000; }
+/*
+center
+*/
+.c{
+  text-align: center;
+}
+/*border radios*/
+.r5{border-radius:5px;}.r10{border-radius:10px;}.r15{border-radius:15px;}.r20{border-radius:20px;}.r25{border-radius:25px;}.r30{border-radius:30px;}.r35{border-radius:35px;}.r40{border-radius:40px;}.r45{border-radius:45px;}.r50{border-radius:50%;}
+/* background*/
+.bg1{background:#000000;}
+.bg2{background:#ffffff;}
+.bg3{background:#ff0000;}
+.bg4{background:#ffff00;}
+.bg5{background:#0000ff;}
+/*flex*/
+.fx{
+  display: flex;
+  align-items: center;
+}
+.fxw{
+  flex-wrap: wrap;
+}
+.fx-center{justify-content: center;}
+.fx-between{justify-content: space-between;}
+.fx-around{justify-content: space-around;}
+.fx-evenly{justify-content: space-evenly;}
+.fx-start{justify-content: flex-start;}
+.fx-end{justify-content: flex-end;}
+
+/*move*/
+.move1 { position: relative; }   /* Move1 = Relative */
+.move2 { position: absolute; }   /* Move2 = Absolute */
+.move3 { position: fixed; }      /* Move3 = Fixed */
+.move4 { position: sticky; }     /* Move4 = Sticky */
+
+.move-t5{top:5px;}.move-t10{top:10px;}.move-t15{top:15px;}.move-t20{top:20px;}.move-t25{top:25px;}
+.move-t30{top:30px;}.move-t35{top:35px;}.move-t40{top:40px;}.move-t45{top:45px;}.move-t50{top:50px;}
+.move-t55{top:55px;}.move-t60{top:60px;}.move-t65{top:65px;}.move-t70{top:70px;}.move-t75{top:75px;}
+.move-t80{top:80px;}.move-t85{top:85px;}.move-t90{top:90px;}.move-t95{top:95px;}.move-t100{top:100px;}
+.move-l5{left:5px;}.move-l10{left:10px;}.move-l15{left:15px;}.move-l20{left:20px;}.move-l25{left:25px;}
+.move-l30{left:30px;}.move-l35{left:35px;}.move-l40{left:40px;}.move-l45{left:45px;}.move-l50{left:50px;}
+.move-l55{left:55px;}.move-l60{left:60px;}.move-l65{left:65px;}.move-l70{left:70px;}.move-l75{left:75px;}
+.move-l80{left:80px;}.move-l85{left:85px;}.move-l90{left:90px;}.move-l95{left:95px;}.move-l100{left:100px;}
+.move-b5{bottom:5px;}.move-b10{bottom:10px;}.move-b15{bottom:15px;}.move-b20{bottom:20px;}.move-b25{bottom:25px;}
+.move-b30{bottom:30px;}.move-b35{bottom:35px;}.move-b40{bottom:40px;}.move-b45{bottom:45px;}.move-b50{bottom:50px;}
+.move-b55{bottom:55px;}.move-b60{bottom:60px;}.move-b65{bottom:65px;}.move-b70{bottom:70px;}.move-b75{bottom:75px;}
+.move-b80{bottom:80px;}.move-b85{bottom:85px;}.move-b90{bottom:90px;}.move-b95{bottom:95px;}.move-b100{bottom:100px;}
+.move-r5{right:5px;}.move-r10{right:10px;}.move-r15{right:15px;}.move-r20{right:20px;}.move-r25{right:25px;}
+.move-r30{right:30px;}.move-r35{right:35px;}.move-r40{right:40px;}.move-r45{right:45px;}.move-r50{right:50px;}
+.move-r55{right:55px;}.move-r60{right:60px;}.move-r65{right:65px;}.move-r70{right:70px;}.move-r75{right:75px;}
+.move-r80{right:80px;}.move-r85{right:85px;}.move-r90{right:90px;}.move-r95{right:95px;}.move-r100{right:100px;}
+
+/* Hover Effects */
+.hover1:hover { opacity: 0.8; }
+.hover2:hover { transform: scale(1.05); }
+.hover3:hover { transform: scale(1.1); }
+.hover4:hover { background-color: #eee; }
+.hover5:hover { color: #f00; }
+.hover6:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+.hover7:hover { transform: translateY(-5px); }
+.hover8:hover { transform: translateX(5px); }
+.hover9:hover { filter: brightness(1.2); }
+.hover10:hover { border-radius: 50%; }
+
+/* Button 1 - Simple colored */
+.btn1 { padding:10px 20px; background:#3498db; color:#fff; border:none; border-radius:5px; cursor:pointer; transition:0.3s; }
+.btn1:hover { background:#2980b9; }
+
+/* Button 2 - Gradient */
+.btn2 { padding:10px 20px; background: linear-gradient(45deg,#ff6b6b,#feca57); color:#fff; border:none; border-radius:8px; cursor:pointer; transition:0.3s; }
+.btn2:hover { opacity:0.9; }
+
+/* Button 3 - Outline */
+.btn3 { padding:10px 20px; background:transparent; color:#e74c3c; border:2px solid #e74c3c; border-radius:5px; cursor:pointer; transition:0.3s; }
+.btn3:hover { background:#e74c3c; color:#fff; }
+
+/* Button 4 - Shadow */
+.btn4 { padding:10px 20px; background:#2ecc71; color:#fff; border:none; border-radius:5px; box-shadow:0 4px 6px rgba(0,0,0,0.2); cursor:pointer; transition:0.3s; }
+.btn4:hover { box-shadow:0 6px 10px rgba(0,0,0,0.3); }
+
+/* Button 5 - Rounded */
+.btn5 { padding:10px 20px; background:#9b59b6; color:#fff; border:none; border-radius:50px; cursor:pointer; transition:0.3s; }
+.btn5:hover { background:#8e44ad; }
+
+/* Button 6 - Scale on Hover */
+.btn6 { padding:10px 20px; background:#f39c12; color:#fff; border:none; border-radius:5px; cursor:pointer; transition:0.3s; }
+.btn6:hover { transform:scale(1.1); }
+
+/* Button 7 - Flip Effect */
+.btn7 { padding:10px 20px; background:#1abc9c; color:#fff; border:none; border-radius:5px; cursor:pointer; transition:0.5s; }
+.btn7:hover { transform:rotateY(180deg); }
+
+/* Button 8 - Inner Shadow */
+.btn8 { padding:10px 20px; background:#e67e22; color:#fff; border:none; border-radius:5px; box-shadow:inset 0 0 5px rgba(0,0,0,0.3); cursor:pointer; transition:0.3s; }
+.btn8:hover { box-shadow:inset 0 0 10px rgba(0,0,0,0.5); }
+
+/* Button 9 - Text Slide */
+.btn9 { padding:10px 20px; background:#34495e; color:#fff; border:none; border-radius:5px; position:relative; overflow:hidden; cursor:pointer; }
+.btn9:hover { color:#fff; }
+.btn9:hover::after { content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.2); transform:translateX(0); }
+
+/* Button 10 - Gradient Border */
+.btn10 { padding:10px 20px; background:#fff; color:#e74c3c; border:3px solid; border-image: linear-gradient(45deg,#ff6b6b,#feca57) 1; border-radius:5px; cursor:pointer; transition:0.3s; }
+.btn10:hover { background:#e74c3c; color:#fff; }
+/* 1. Fade In */
+@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+.ani1 { animation: fadeIn 1s ease-in-out; }
+
+/* 2. Slide Up */
+@keyframes slideUp { 0% { transform: translateY(20px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+.ani2 { animation: slideUp 0.5s ease-out; }
+
+/* 3. Slide Down */
+@keyframes slideDown { 0% { transform: translateY(-20px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+.ani3 { animation: slideDown 0.5s ease-out; }
+
+/* 4. Slide Left */
+@keyframes slideLeft { 0% { transform: translateX(20px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+.ani4 { animation: slideLeft 0.5s ease-out; }
+
+/* 5. Slide Right */
+@keyframes slideRight { 0% { transform: translateX(-20px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+.ani5 { animation: slideRight 0.5s ease-out; }
+
+/* 6. Bounce */
+@keyframes bounce { 0%,20%,50%,80%,100% { transform: translateY(0); } 40% { transform: translateY(-20px); } 60% { transform: translateY(-10px); } }
+.ani6 { animation: bounce 1s infinite; }
+
+/* 7. Rotate */
+@keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.ani7 { animation: rotate 2s linear infinite; }
+
+/* 8. Scale Up */
+@keyframes scaleUp { 0% { transform: scale(0); } 100% { transform: scale(1); } }
+.ani8 { animation: scaleUp 0.5s ease-in-out; }
+
+/* 9. Pulse */
+@keyframes pulse { 0% { transform: scale(1); opacity:1; } 50% { transform: scale(1.1); opacity:0.7; } 100% { transform: scale(1); opacity:1; } }
+.ani9 { animation: pulse 1s infinite; }
+
+/* 10. Shake */
+@keyframes shake { 0%,100%{ transform: translateX(0); } 10%,30%,50%,70%,90%{ transform: translateX(-5px); } 20%,40%,60%,80%{ transform: translateX(5px); } }
+.ani10 { animation: shake 0.5s ease-in-out; }
